@@ -20,7 +20,8 @@ ul {
     white-space: nowrap;
 }
 .fonts {
-    font-family: cursive;
+    font-family: "Playwrite Au QLD", cursive;
+    font-weight: bolder;
     
 }
 
