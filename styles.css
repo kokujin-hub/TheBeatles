@@ -14,6 +14,7 @@ body {
     font-size: 25px;
     margin: 0px;
     padding: 0px;
+    
 }
 
 ul {
@@ -22,6 +23,16 @@ ul {
 .fonts {
     font-family: "Playwrite Au QLD", cursive;
     font-weight: bolder;
-    
 }
-
+.songs-list {
+    display: flex;
+    gap: 20px; 
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .songs-list li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
